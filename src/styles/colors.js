@@ -12,3 +12,9 @@ export const ALERT = '#cc4b37';
 export const GRAY_LIGHT = '#e6e6e6';
 export const GRAY_MEDIUM = '#cacaca';
 export const GRAY_DARK = '#8a8a8a';
+export const GRAY='#D8D8D8';
+
+//BlUES
+export const GRADIENT_TOP_BLUE='#003560';
+export const GRADIENT_BOT_BLUE='#0061AF';
+

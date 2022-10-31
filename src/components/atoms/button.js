@@ -5,6 +5,7 @@ import { Button, withTheme } from "react-native-paper";
 
 const CustomButton = (props) =>
     <Button
+        uppercase={props.uppercase}
         mode={props.mode ? props.mode : 'contained'}
         color={props.color}
         icon={props.icon}

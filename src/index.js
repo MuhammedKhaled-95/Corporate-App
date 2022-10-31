@@ -151,7 +151,8 @@ import CustomButton from "./components/atoms/button";
 import CustomCard from "./components/atoms/card";
 import LoadingIndicator from "./components/atoms/loading_indicator";
 import { CustomColors, Shadows } from '_styles';
-import { Text, View } from 'react-native'
+import { Text, View } from 'react-native' 
+import ResetPassword from "./scenes/login/ResetPassword.js";
 
 
 const App = () => {
@@ -171,10 +172,11 @@ const App = () => {
     //   >
     //     <Text>This view has an inset shadow!</Text>
     //   </View>
+    //   <CustomButton disabled={false} onPress={()=> console.log("zby")}/>
     // </View>
-        <CustomCard style={{width: '95%', alignSelf: 'center'}}/>
+    <ResetPassword/>
+      //  <CustomCard style={{width: '95%', alignSelf: 'center'}}/>
   )
-
 }
 
 export default App;

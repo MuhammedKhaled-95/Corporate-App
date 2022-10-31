@@ -4,6 +4,8 @@ import { TextInput, withTheme } from "react-native-paper";
 
 const CustomTextInput = (props) =>
     <TextInput
+        maxLength={props.maxLength}
+        keyboardType={props.keyboardType}
         style={{ ...styles.textInput, ...props.style }}
         mode={props.mode ? props.mode : 'outlined'}
         label={props.label}
